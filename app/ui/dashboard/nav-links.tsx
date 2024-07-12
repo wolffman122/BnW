@@ -1,19 +1,16 @@
 import {
-    DocumentDuplicateIcon,
+    HomeIcon,
     HomeModernIcon,
     ListBulletIcon,
     MinusCircleIcon,
     PencilSquareIcon,
     PlusCircleIcon,
-    UserGroupIcon,
-    UserMinusIcon,
-    UserPlusIcon,
 } from '@heroicons/react/24/outline';
 
 import { link } from 'fs';
 
 const links = [
-    { name: 'Home', href: '/dashboard', icon: HomeModernIcon },
+    { name: 'Home', href: '/dashboard', icon: HomeIcon },
     { name: 'Items', href: '/dashboard/items', icon: ListBulletIcon},
     { name: 'Add Item', href: '/dashboard/items/add', icon: PlusCircleIcon },
     { name: 'Delete Item', href: '/dashboard/items/delete', icon: MinusCircleIcon },

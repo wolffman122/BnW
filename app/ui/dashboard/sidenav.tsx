@@ -6,7 +6,7 @@ export default function SideNav () {
     return (
         <div>
             <Link href="/">Root</Link>
-            <div className='flex grow flex-row justify-between space-x-2 md:flex-col  md:spay-y-2'>
+            <div className='flex grow flex-row justify-between space-x-2 md:flex-col md:space-y-2'>
                 <NavLinks />
                 <div className='hidden h-auto w-full grow rounded-md md:block'></div>
                 <form>

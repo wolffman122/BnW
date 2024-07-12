@@ -1,3 +1,3 @@
 export default function Page() {
-    return <p>Update Page</p>;
+    return <p>Items Page</p>;
 }
